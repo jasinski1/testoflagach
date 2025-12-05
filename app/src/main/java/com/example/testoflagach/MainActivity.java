@@ -1,6 +1,9 @@
 package com.example.testoflagach;
 
+import static android.view.View.INVISIBLE;
+
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void ukryj(View view) {
+        view.setVisibility(INVISIBLE);
     }
 }

@@ -33,7 +33,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#2196F3"
-            />
+            android:layout_margin="8dp"
+            android:onClick="ukryj"/>
 
 
         <Button
@@ -42,7 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#FFEB3B"
-             />
+            android:layout_margin="8dp"
+            android:onClick="ukryj"
+            />
 
         <Button
             android:id="@+id/button6"
@@ -50,7 +53,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#D70A00"
-             />
+            android:layout_margin="8dp"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -63,21 +67,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#567899" />
+            android:backgroundTint="#567899"
+            android:layout_margin="8dp"
+            android:onClick="ukryj"/>
 
         <Button
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#894545"/>
+            android:backgroundTint="#894545"
+            android:layout_margin="8dp"
+            android:onClick="ukryj"/>
 
         <Button
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#FFFFFF" />
+            android:backgroundTint="#FFFFFF"
+            android:layout_margin="8dp"
+            />
     </LinearLayout>
 
 </LinearLayout>
