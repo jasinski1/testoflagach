@@ -34,7 +34,8 @@
             android:layout_weight="1"
             android:backgroundTint="#2196F3"
             android:layout_margin="8dp"
-            android:onClick="ukryj"/>
+            android:onClick="ukryj"
+            />
 
 
         <Button
@@ -54,6 +55,7 @@
             android:layout_weight="1"
             android:backgroundTint="#D70A00"
             android:layout_margin="8dp"
+            android:onClick="ok"
             />
     </LinearLayout>
 
@@ -87,6 +89,7 @@
             android:layout_weight="1"
             android:backgroundTint="#FFFFFF"
             android:layout_margin="8dp"
+            android:onClick="ok"
             />
     </LinearLayout>
 

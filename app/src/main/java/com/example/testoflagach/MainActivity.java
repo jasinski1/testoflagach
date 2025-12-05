@@ -4,6 +4,7 @@ import static android.view.View.INVISIBLE;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void ukryj(View view) {
         view.setVisibility(INVISIBLE);
+    }
+
+    public void ok(View view) {
+        Toast.makeText(this, "ten kolor w flade polski ", Toast.LENGTH_SHORT).show();
     }
 }
